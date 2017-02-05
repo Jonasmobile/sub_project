@@ -1,0 +1,69 @@
+<ion-view class="postdetailview" >
+            <ion-header-bar class="bar-positive bar postdetailheaderview">
+                        <img class="backbuttonimg" ng-click="goBack()"
+                         src="img/leftback.png"></img>
+                         <img class="titlepnglogo"src="img/headertitle.png">                 
+            </ion-header-bar>
+            
+            <div class="bar bar-footer bottomfooter">
+               <button class="postbutton">Post</button>
+               <input type="text" class="typecommand" placeholder = "Type a comment...">
+            </div>  
+            
+           
+            <ion-content class="mainlistboard">
+                
+                
+                 <div class="mainback1">
+                        <div class="mandata">
+                                    <img class="detailphoto1" ng-src="img/max.png""></img>
+                                    <div class="detailname1">{{celldata.username}}</div>
+                                    <p class="detailtimetxt">{{celldata.time}} Days ago</p>
+                                            
+                        </div>   
+                        <!--<img class="mainbacklogo" ng-src="{{celldata.backimg}}">-->
+                        
+                           <div class="ngifview" ng-if="celldata.emotion == '1'">
+                                <img class="mainbacklogo" ng-src="img/logored.png">
+                            </div>
+                            
+                            <div class="ngifview" ng-if="celldata.emotion =='2'">
+                                <img class="mainbacklogo" ng-src="img/logoyellow.png">
+                            </div>
+                            
+                            <div class="ngifview" ng-if="celldata.emotion == 3">
+              
+              
+              
+                                <img class="mainbacklogo" ng-src="img/logogreen.png">
+                            </div>
+                            
+                            <div class="ngifview" ng-if="celldata.emotion.length == 0">
+                                <img class="mainbacklogo" ng-src="img/logoblue.png">
+                            </div>
+                        
+                        
+                        
+                        
+                        <!--<div class="txtgroup">-->
+                            <!--<div class="likesnumber">{{celldata.likesnumber}} like(s)</div>-->
+                            <div class="likesnumber">{{celldata.commentId}}6 like(s)</div>
+                            <div class="commentsnumber">{{celldata.level}} Comments</div>
+                        <!--</div>-->
+                        
+                        <div class = "buttongroup">
+                            <button class="ion-ios-star buttonlike" ng-click="likebuttonclick()">
+                                        Like
+                            </button>
+                            <button class="ion-ios-chatbubble buttoncomment" ng-click="commentbuttonclick()">
+                                        Comment
+                            </button>
+                        </div>
+                        
+                        <button class="loadbutton" ng-click="Loadbuttonclick()">
+                                        Load Previous Comments....                 
+                        </button>
+            </div>
+            </ion-content>
+              
+        </ion-view>

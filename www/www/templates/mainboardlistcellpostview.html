@@ -1,0 +1,68 @@
+
+<ion-view class="mainboardcellpostview" ng-init="init()">
+    <ion-nav-bar class=" bar-positive">
+        
+        <ion-nav-buttons side="left">
+            
+             <button class="button button-icon button-clear " 
+             style=" margin-left: 5px;margin-top:5px"  ng-click="goBack()"> 
+               <img src="img/leftback.png">
+            </button>
+        
+        </ion-nav-buttons>
+        <ion-nav-buttons side="right">
+            <button class="button button-icon button-clear" ng-click="goProfile()">
+            </button>
+        </ion-nav-buttons>
+        
+    </ion-nav-bar>
+    <ion-header-bar class="bar-positive cellpostviewtitle">
+    </ion-header-bar>
+    
+    <ion-content >
+        <div class="mainback1">
+            <div style="width:100%;height:2px;background-color:#ff0000;">
+                
+            </div>
+                        <div class="mandata">
+                                            <img class="detailphoto1" ng-src="{{celldata.detailphoto}}">
+                                            <div class="detailname1">{{celldata.name}}</div>
+                                            <p class="detailtimetxt">{{celldata.lasttext}}</p>
+                                            
+                        </div>
+                        <img class="mainphoto1" ng-src="{{celldata.backimg}}">
+                        <div class="txtgroup">
+                            <div class="likesnumber">{{celldata.likesnumber}} like(s)</div>
+                            <div class="Committxt">{{celldata.commentstxt}} Comments</div>
+                        </div>
+                                            
+                        <div class = "buttongroup" style="margin-top:4%">
+
+                            <button class="button8 ion-ios-star" ng-click="goto1($index)">
+                                        Like
+                            </button>
+
+                            <button class="button8 ion-ios-chatbubble" ng-click="increasecommitnumber()">
+                                        Comment
+                            </button>
+                        </div>
+                        <button class="buttonloadprev" ng-click="gprevloadoto()">
+                            Load Previous Comments...
+                        </button>        
+        </div>
+        <div>
+         <div class="buttonPost">
+               <input type="text" class="Typecommand" placeholder = "Type a comment...">
+              <button class="button button-clear post-button"  ng-click="gprevloadoto()">
+                  Post
+              </button>
+         </div>
+        </div>
+    </ion-content>
+</ion-view>
+
+
+
+
+
+

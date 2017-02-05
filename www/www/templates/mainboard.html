@@ -1,0 +1,34 @@
+<ion-view class="mainboardview" hide-nav-bar="true">
+            <ion-header-bar class="titlebarview">
+                    <img class="titlebar_left_btn" ng-click="leftbuttonclick()"
+                                src="img/arrow_left.png"></img>
+                    <img class="mainboard_title_back" id="titlebar_storytype_view_id" 
+                    ></img>
+                    <img class="titlebar_right_btn" ng-click="rightbuttonclick()" src="img/arrow_right.png"></img>
+            </ion-header-bar>
+            
+            
+            
+            <ion-content class="mainlistboard" 
+            style = "background:url(img/mainback2.png);
+            width:100%;height:100%;margin-top:-45px">
+
+                  <ion-list class = "main_list_view">
+                          <ion-item class="listitem"
+                          ng-repeat="chat in Postdata" 
+                          >   
+                          
+                            
+                            <div class="detailname1">{{chat.username}}</div>                   
+                                
+                          
+                            <div class="descriptiontxt">
+                                {{chat.content}} 
+                            </div>
+                          
+                            
+                            <div class="replied_text">{{chat.lasttext}}</div>       
+                          </ion-item>
+                  </ion-list>
+            </ion-content>
+</ion-view>

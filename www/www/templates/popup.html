@@ -1,0 +1,25 @@
+<div class="popup-view">
+    
+        <div class="bar bar-header bar-stable" style="background color:#FF1493">
+        <h1 class="title">Message</h1>
+       
+        </div>
+
+    <div class="title2">Login Failed</div>
+    <button class="button button-block setting-btn" ng-click="goFriends()">
+        OK
+    </button>
+   
+   
+    <label class="item notification-label" style="padding-left:5%" ng-repeat="item in checkList">
+        <label class="toggle toggle-balanced disable-user-behavior switch-btn">
+            <input type="checkbox" ng-model="ngModel" ng-value="{{item.checked}}" ng-change="ngChange()" ng-disabled="ngDisable" class="ng-valid ng-dirty" value="on">
+            <div class="track">
+                <div class="handle">
+                </div>
+            </div>
+        </label>
+        <div style="margin-top:-30px">{{item.text}}</div>
+    </label>
+
+</div>

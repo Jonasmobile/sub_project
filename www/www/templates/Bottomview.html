@@ -1,0 +1,51 @@
+
+<ion-view class="Bottomview" >
+    <ion-nav-bar class=" bar-positive">
+        
+        <ion-nav-buttons side="left">
+            
+             <button class="button button-icon button-clear " style=" margin-left: 5px;margin-top:5px"  ng-click="goBack()"> 
+               <img src="img/leftback.png">
+            </button>
+        
+        </ion-nav-buttons>
+        <ion-nav-buttons side="right">
+            <button class="button button-icon button-clear" ng-click="goProfile()">
+            </button>
+        </ion-nav-buttons>
+        
+    </ion-nav-bar>
+    <ion-header-bar class="bar-positive bottomtitleview" >
+    <!--style="background-image: url(/img/topeditbar.png);
+    background-repeat: round;background-size: 100% 100%;">-->
+    </ion-header-bar>
+    
+    
+    <ion-content class="mainback">
+        
+         <div class = "groupItem" style="margin-top:1%">
+                       <div class="title">Details(optional):</div>
+                       <textarea class="item item-input detailtext"> 
+                       </textarea>
+         </div> 
+         
+         <div class = "buttongroup" style="margin-top:4%">
+                     
+                                <button class="buttoncancel" ng-click="cancelbuttonclick()">
+                                            Cancel
+                                </button>
+                            
+                                <button class="buttonpost" ng-click="postbuttonclick()">
+                                            Post
+                                </button>
+         </div>
+     
+       
+    </ion-content>
+</ion-view>
+
+
+
+
+
+

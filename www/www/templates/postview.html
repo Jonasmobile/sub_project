@@ -1,0 +1,45 @@
+
+  <ion-view class="postview">
+    <ion-header-bar class="bar-positive bar postviewtitleview"> 
+                <img class="backbuttonimg" ng-click="goBack()"
+                         src="img/leftback.png"></img>
+                <img class="titlepnglogo"src="img/headertitle.png">                  
+    </ion-header-bar>
+    
+            <ion-content class="mainback" style="margin-top:1%">   
+                
+                <div class = "groupItem" style="margin-top:1%">
+                       <div class="description">Description: </div>
+                    
+                           <textarea class="item item-input textinputarea">                    
+                           </textarea>                                        
+                       <div class="title3">Attach media: </div>
+                       <label class="item item-input attachmedialabel">
+                            <button class="choosebutton" ng-click="choosebuttonclick()">
+                                 Choose File
+                            </button>
+                       <input type="text" placeholder = "" 
+                       style="margin-left:3%">
+                       <p class="nochosentxt">No file chosen</p>
+                       </label>
+                </div>
+                
+                <div class = "groupItem2">
+                       <div class="titleyutubo">Youtube URL </div>
+                       <label class="item item-input urllabel">
+                       <input class="yutubeurl1" type="text" placeholder = "Youtube Url">
+                       </label>
+                </div>
+                      <div class = "buttongroup" style="margin-top:4%">
+                     
+                                <button class="buttonpost" ng-click="cancelbuttonclick()">
+                                           Cancel
+                                </button>
+                            
+                                <button class="buttoncancel" ng-click="postbuttonclick()">
+                                            Post
+                                </button>
+                      </div>
+            </ion-content>
+     
+    </ion-view>

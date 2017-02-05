@@ -1,0 +1,31 @@
+
+<ion-view class="loginview">
+   
+    <ion-content class="mainback" 
+    style = "background:url(img/mainback2.png);
+    background-repeat:no-repeat">
+        <!--<img class="loginmainlogo" src="img/storylogo.png">-->
+            <label class="item item-input usernamelabel1">
+                <input type="text" 
+                placeholder = "Username" 
+                ng-model="user.username" 
+                id="txtEmail">
+            </label>
+            
+            <label class="item item-input passwdlabel">
+                <input type="password" ng-model="user.password" placeholder="****" id="txtPassword">
+            </label>
+        <button class="buttonlogin" ng-click="nextPage()">
+            Log In
+        </button>        
+        <!--<button class="button needhelpbutton" ng-click="dialogshow()" >
+        Need Help?        
+        </button>-->
+    </ion-content>
+</ion-view>
+
+
+
+
+
+

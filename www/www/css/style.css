@@ -1,0 +1,1507 @@
+/* Empty. Add your own CSS if you like */
+.bar-assertive{
+   
+    height: 50px;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+  
+    padding-top:5px;
+    background-image:url("../img/topeditbar.png");
+    
+    
+}
+/***********************
+ signup View
+***********************/
+.signup-view .headerbartitleview{
+    width: 100%;
+    height: 100px;
+    background: transparent;
+    border: transparent;
+}
+.signup-view .mainback{
+    width: 100%;
+   
+    height: 100%;
+    margin-top: 200px;
+}
+.signup-view .User_email{
+    width:80%;
+    max-height:40px;
+    margin-left:10%;
+    border-radius: 7px;
+    background: #faffbd;
+    margin-top: 20px;
+}
+.signup-view .User_password{
+    width:80%;
+    max-height:40px;
+    margin-left:10%;
+    border-radius: 7px;
+    background: #faffbd;
+    margin-top: 5px;
+}
+.signup-view .User_firstname{
+    width:80%;
+    max-height:40px;
+    margin-left:10%;
+    border-radius: 7px;
+    background: #faffbd;
+    margin-top: 5px;
+}
+
+.signup-view .User_lastname{
+    width:80%;
+    max-height:40px;
+    margin-left:10%;
+    border-radius: 7px;
+    background: #faffbd;
+    margin-top: 5px;
+}
+.signup-view .buttonsigncreate{
+    width: 90%;
+    min-height: 60px;
+    max-height: 90px;
+    margin-left: 5%;
+    margin-top: 5%;
+    color: black;
+    font-size: 19px;
+    font-weight: bold;
+    border: transparent;
+    border-radius: 7px;
+    background: -webkit-linear-gradient(#8987b6,#e6e6e4);
+}
+
+.signup-view .titlebar_left_btn{
+    width: 60px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+/*******************
+signinsignup view
+*********************/
+.signin_signup .mainback{
+    /*background:url(onlineicon.png);*/
+    background-color: transparent;
+    background-repeat: no-repeat;
+}
+.signin_signup .mainlogo{
+    width:100%;
+    height: 100%;
+}
+.signin_signup .buttonsignin{
+    width: 80%;
+    min-height: 60px;
+    max-height: 80px;
+    margin-left: 10%;
+    margin-top: 100%;
+    color: black;
+    font-size: 19px;
+    font-weight: bold;
+    border: transparent;
+    border-radius: 7px;
+    background: -webkit-linear-gradient(#8987b6,#e6e6e4);
+    
+}
+.signin_signup .buttonsignin:hover{
+    color: #9900ff;
+}
+.signin_signup .buttonsignin:active{
+    background-color: #3e8e41;
+    transform: translateY(4px);
+}
+
+.signin_signup .buttonsignup{
+    width: 80%;
+    min-height: 60px;
+    max-height: 80px;
+    margin-left: 10%;
+    margin-top: 5%;
+    color: black;
+    font-size: 19px;
+    font-weight: bold;
+    border: transparent;
+    border-radius: 7px;
+    background: -webkit-linear-gradient(#8987b6,#e6e6e4);
+    
+}
+.signin_signup .buttonsignup:hover{
+    color: #9900ff;
+}
+.signin_signup .buttonsignup:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+/*****************************
+login View part
+******************************/
+.loginview{
+    width: 100%;
+    height: 100%;
+    background: #e6e6e5;
+}
+.loginview .navbartitleview{
+      background: -webkit-linear-gradient(#7CFC00,#8dc63f);
+      border: transparent;
+}
+.loginview .buttonlogin{
+    width: 90%;
+    min-height: 40px;
+    max-height: 80px;
+    margin-left: 5%;
+    margin-top: 10%;
+    color: black;
+    font-size: 19px;
+    font-weight: bold;
+    border: transparent;
+    border-radius: 5px;
+    background: -webkit-linear-gradient(#8987b6,#e6e6e4);
+    
+}
+.loginview .buttonlogin:hover{
+    color: black;
+}
+.loginview .buttonlogin:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.loginview .needhelpbutton{
+    margin-top: 4%;
+    width: 70%;
+    margin-left: 15%;
+    color: #999999;
+    text-decoration: underline;
+    background: transparent;
+}
+.loginview .needhelpbutton:hover{
+    color: black;
+}
+.loginview .usernamelabel1{
+    border-radius: 5px;
+    width: 90%;
+    margin-top: 100%;
+    margin-left: 5%;
+    min-height: 20px;
+    max-height: 40px;
+    background: #faffbd;
+}
+.loginview .passwdlabel{
+    border-radius: 5px;
+    margin-top: 2px;
+    width: 90%;
+    margin-left: 5%;
+    min-height: 20px;
+    max-height: 40px;
+    background: #faffbd;
+}
+.loginview .mainback{
+    background: #e6e6e5;
+    width: 100%;
+    height: 100%;
+}
+.loginview .loginmainlogo{
+    width: 70%;
+    height: 70%;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+/****************
+Notification part
+****************/
+.Notification{
+    width: 100%;
+    height: 100%;
+    background: white;
+}
+.Notification .titlebarview{
+    background: transparent;
+    width: 100%;
+    min-height: 100px;
+    max-height: 100px;
+}
+.Notification .searchview_title{
+    width: 50%;
+    margin-left: 25%;
+    background-color: white;
+    height: 60%;
+    margin-top: 60px;
+    text-align: center;
+    border-radius: 10px;
+}
+.Notification .searchtitle_str{
+    width: 100%;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.Notification .main_list_view{
+    margin-top: 170px;
+    position: absolute;
+    width: 90%;
+    height: 80%;
+    margin-left: 5%;
+}
+.Notification .listitem{
+     border: none;
+    min-height: 50px;
+    max-height: 50px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: black;
+    opacity: 0.5;
+}
+.Notification .detailname1{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 3px;
+    margin-left: 20px;
+    
+    color: white;
+    opacity: 1.4;
+}
+
+/***************************
+ProfileView part
+****************************/
+.profileview{
+    width: 100%;
+    height: 100%;
+    background: #e6e6e5;
+}
+.profileview .mainpostback_view{
+    width: 80%;
+    margin-left: 10%;
+    /*margin: 0 auto;*/
+    height:70%;
+    border-radius: 10px;
+    background: white; 
+    background: #e6e6e5;
+    margin-top: 100px;
+    /*padding-top: 2px;*/
+    
+}
+.profileview .controlview{
+    width: 100%;
+    min-height: 10px;
+}
+.profileview .description{
+    color:#999999;
+    font-size: 18px;
+    margin-left: 15%;
+    font-weight: 400;
+    width: 90%;
+    margin-left: 5%;
+    min-height: 30px;
+    max-height: 50px;
+    margin-top: 20px;
+}
+.profileview .description_title_txtarea{
+    width: 90%;
+    height: 10%;
+    margin-left: 5%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.profileview .posttitle{
+    color:#999999;
+    font-size: 18px;
+    margin-left: 15%;
+    font-weight: 400;
+    width: 90%;
+    margin-left: 5%;
+    min-height: 30px;
+    max-height: 50px;
+    margin-top: 20px;
+}
+.profileview .description_content_txtarea{
+    width: 90%;
+    height: 40%;
+    margin-left: 5%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.profileview .postviewtitleview{
+    width: 100%;
+    height:50px;
+    min-height: 50px;
+    max-height: 50px;
+    border: transparent;
+    background: linear-gradient(#C344FF,#ff68cc);
+}
+.profileview .postviewtitleview .posttitlebar_postbutton{
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    float: right;
+    right: 0;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 15px;
+    /*margin-top: 25px;*/
+}
+.profileview .postviewtitleview .backbuttonimg{
+    width: 23px;
+    height: 25px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.profileview .maincontent{
+    /*max-width:768px;
+    min-width: 320px;
+    margin: 0 auto;*/
+    width: 100%;
+    height: 100%;
+
+}
+.profileview .buttonpost{
+    width:25%;
+    height:2%;
+    color: white;
+    margin-top: 40px;
+    border: transparent;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+/******************
+mainboard view
+*******************/
+.mainboardview {
+    background-color: #e6e6e5;
+}
+.mainboardview .titlebarview{
+    width: 100%;
+    height: 100px;
+    background: transparent;
+    border: transparent;
+}
+.mainboardview .filterbutton{
+    margin-left: 1px;
+    margin-top: 30px;
+    width: 1px;
+    height: 1px;
+}
+.mainboardview .mainboard_title_back{
+    position: absolute;
+    width: 50%;
+    margin-left: 25%;
+    min-height: 40px;
+    max-height: 40px;
+    margin-top: 30px;
+}
+.mainboardview .titlebar_left_btn{
+    width: 60px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.mainboardview .main_list_view{
+    /*position: absolute;*/
+    /*min-height: 190px;
+    max-height: 230px;*/
+    width: 100%;
+    /*background-color: white;*/
+    /*margin-left: 5%;*/
+    /*margin-left: calc(50%-180px);*/
+    /*right: 0;
+    left: 0;*/
+    margin-top: 250px;
+}
+.mainboardview .listitem{
+    
+    border: none;
+    min-height: 160px;
+    max-height: 280px;
+    /*background: transparent;*/
+    margin-top: 50px;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10px;
+    background-color: white;
+    /*background-size: contain;*/
+}
+.mainboardview .titlebar_right_btn{
+    width: 60px;
+    height: 50px;
+    margin-top: 25px;
+    position: absolute;
+    right: 10px;
+}
+
+.mainboardview .detailname1{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.mainboardview .descriptiontxt{
+    font-size: 13px;
+    width: 90%;
+    margin-left: 5%;
+    white-space: normal;
+    margin-top: 5px;
+}
+.mainboardview .profilebtn1{ 
+    width:32%;
+    height:33%;
+    border: 1px solid 	#875010;
+    cursor: pointer;
+    font-size: 13px;
+    margin-top:5%;
+    background-color: #fcb040;
+    background-repeat: round;
+    color:#939393;
+    transition-duration: 0.9s
+}
+.mainboardview .replied_text{
+    margin-top: -15px;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.mainboardview .profilebtn1:hover {
+     color:white;
+    background-color: #4CAF50;
+}
+
+.mainboardview .communitybtn{
+               background-color: #fcb040;
+               text-align: center;
+               border: 1px solid 	#875010;
+               cursor: pointer;
+               width:32%;
+               height:50%;
+               font-size: 13px;
+               margin-top:5%;
+               color:#939393;
+               background-repeat: round;
+               transition-duration: 0.9s;
+               display: inline-block;
+}
+.mainboardview .communitybtn:hover{
+    color:white;
+    background-color: #4CAF50;
+}
+.mainboardview .notificationbtn{
+               background-color: #fcb040;
+               text-align: center;
+               border: 1px solid 	#875010;
+               cursor: pointer;
+               width:33%;
+               height:5%;
+               font-size: 13px;
+               margin-top:5%;
+               color:#939393;
+               background-repeat: round;
+               transition-duration: 0.9s;
+}
+.mainboardview .notificationbtn:hover{
+     color:white;
+    background-color: #4CAF50;
+}
+.mainboardview .title1{
+    text-decoration: underline;
+}
+.mainboardview .mainphoto1{
+    margin-top: 1%;
+    height: 120%;
+    width: 80%;
+    margin-left: 10%; 
+}
+.mainboardview .ngifview .descriptiontxt{
+    /*position: absolute;*/
+    color: red;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 25%;
+    white-space: pre-wrap;
+    color: #313131;
+    margin-top: -45%;
+    margin-left:0%; 
+    font-size: 20px;
+    font-weight: 500;
+}
+/*************************
+mainboard-listview cell postiew
+***********************/
+.mainboardcellpostview{
+     background-color:  #e6e6e5; 
+     width :100%;
+     height:100%;
+     padding-top: 10%;
+}
+.mainboardcellpostview .cellpostviewtitle{
+     background: -webkit-linear-gradient(#7CFC00,#8dc63f);
+     
+}
+.mainboardcellpostview .buttonloadprev{
+   border: 1px solid #000000;
+   width: 100%;
+   margin-top: 5%;
+   font-size: 19px;
+  
+}
+.mainboardcellpostview .button8:hover{
+    color:#9900ff; 
+}
+.mainboardcellpostview .button8{
+   font-size: 16px;
+    color: #939393;
+    border: transparent;
+    background: transparent;
+}
+.mainboardcellpostview .buttonPost{
+    width: 100%;
+    min-height: 50px;
+    max-height: 100px;
+    background: -webkit-linear-gradient(#7CFC00,#8dc63f);
+    margin-top: 10%;
+    font-size: 20px;
+    color: #ffffff;
+    border-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+     
+}
+.mainboardcellpostview .Typecommand{
+    border-radius: 6px;
+    width: 70%;
+    margin-left: 5%;
+    min-height: 50px;
+    max-height: 100px;
+    margin-top: 2%;
+    
+}
+
+.mainboardcellpostview .post-button {
+    margin-left: 80%;
+    width: 15%;
+    min-height: 50px;
+    max-height: 100px;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: -50px;
+    
+}
+.mainboardcellpostview .mainback1{
+    width: 90%;
+    height: 40%;
+    background: #ffffff;
+    margin-top: 2%;
+    margin-left: 5%;
+    border-top-width: 10px;
+    border-top-color: #ff0000;
+}
+.mainboardcellpostview .Committxt{
+    margin-left: 70%;
+}
+.mainboardcellpostview .detailphoto1{
+   margin-left: 2%;
+    margin-top: 2%;
+    width:15%;
+    height:15%;
+}
+.mainboardcellpostview .detailname1{
+    margin-left: 1%;
+    margin-top: 3%;
+}
+.mainboardcellpostview .detailtimetxt{
+    margin-left: 1%;
+    margin-top: 1%;
+}
+.mainboardcellpostview .mainphoto1{
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+}
+/*==========================================
+Popup View
+============================================*/
+.popup-view{
+    width: 100%;
+    height: 60%;
+    border-radius:15px;
+    
+}
+.popup-view .setting-btn{
+    min-height: 40px;
+    margin-top:0px;
+    color: #ffffff;
+    font-size: 18px; 
+    
+    font-weight: 200%;
+    margin-top: 5%;
+    margin-bottom: 0px;
+    background-color: #9900ff;
+}
+
+.popup-view .notification-label{
+    background-color: #ffffff;
+    border-color: #b2b2b2;
+    height: 40px;
+    padding: 10px;
+}
+.popup-view .switch-btn {
+    margin-top:-12px;
+    z-index: 100;
+    margin-left: 75%;
+}
+.popup-view .title2{
+    height:40%;
+    color: 	#ff0000;
+    font-size: 20px;
+    margin-top: 5%;
+    align-content: center;
+}
+
+/*************************
+postview part
+**************************/
+.postview{
+    background: #e6e6e5;
+}
+.postview .description{
+    color:#9900ff;
+    font-size: 18px;
+    margin-left: 1%;
+    font-weight: 400;
+}
+.postview .buttonleftback{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.postview .mainback{
+    width: 100%;
+    height: 80%;
+    background: white; 
+    border-top:2px solid #ff0000; 
+}
+.postview .postviewtitleview{
+    width: 100%;
+    height:50px;
+    min-height: 50px;
+    max-height: 50px;
+    border: transparent;
+    background: -webkit-linear-gradient(#7CFC00,#8dc63f);
+}
+.postview .postviewtitleview .titlepnglogo{
+    position: absolute;
+    width: 200px;
+    align-content: center;
+    text-align-last: center;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    min-height: 45px;
+    max-height: 46px;
+    margin-top: 0px;
+}.postview .postviewtitleview .backbuttonimg{
+    width: 23px;
+    height: 25px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.postview .textinputarea{
+    width: 98%;
+    margin-left: 1%;
+    height: 250px;
+    margin-top: 3%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+     background: white; 
+    font-size: 16px;
+    resize: vertical;
+    overflow: auto;
+}
+.postview .attachmedialabel{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3%;
+    border-radius: 7px;
+    text-align: center;
+    text-align-last: center;
+}
+.postview .choosebutton{
+    width: 40%;
+    position: absolute;
+    left: 3px;
+    min-height: 30px;
+    font-weight: 400;
+    font-size: 17px;
+    color: #313131;
+    
+}
+.postview .nochosentxt{
+   position: absolute;
+   left: 43%;
+   font-weight: 400;
+   font-size: 17px;
+   color: #313131;
+}
+.postview .urllabel{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+    border-radius: 5px;
+}
+.postview .title3{
+    color:#9900ff;
+    font-size: 18px;
+    margin-top: 3%;
+    margin-left: 1%;
+    font-weight: 400;
+    
+    
+}
+.postview .yutubeurl1{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.postview .titleyutubo{
+      color:#9900ff;
+      font-size: 18px;
+      font-weight: 400;
+      margin-left: 1%;
+      margin-top: 3%;
+}
+.postview .buttonpost{
+    width: 40%;
+    margin-left: 5%;
+    min-height: 40px;
+    background: -webkit-linear-gradient(#7CFC00,#8dc63f);
+    border: transparent;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    font-weight: 800;
+}
+.postview .buttonpost:hover{
+    color: #c344ff;
+}
+.postview .buttonpost:active{
+    color: #c344ff;
+}
+.postview .buttoncancel{
+    width: 40%;
+    margin-left: 5%;
+    min-height: 40px;
+    background: -webkit-linear-gradient(#7CFC00,#8dc63f);
+    border: transparent;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    font-weight: 800;
+    
+}
+.postview .buttoncancel:hover{
+    color: #c344ff;
+}
+.postview .buttoncancel:active{
+    color:#c344ff;
+}
+.postview .postviewtitleview{
+     background: -webkit-linear-gradient(#7CFC00,#8dc63f);
+}
+/********************
+postdetailview part
+****************/
+.postdetailview{
+     background-color:  #e6e6e5; 
+     width :100%;
+     height:100%;     
+     border-top: 2px;
+     border-top-color: #ff0000;
+}
+.postdetailview .mainlistboard{
+    height: 90%;
+    
+    margin-bottom: 2px;
+}
+.postdetailview .mainback1{
+    width: 100%;
+    height: 80%;
+    margin-top: 10px;
+    background: #ffffff;
+    border-top: 2px solid #ff0000;
+    margin-bottom: 10%;
+}
+.postdetailview .postdetailheaderview{
+    width: 100%;
+    height:50px;
+    min-height: 50px;
+    max-height: 50px;
+    border: transparent;
+    background: -webkit-linear-gradient(#7CFC00,#8dc63f);
+}
+.postdetailview .postdetailheaderview .backbuttonimg{
+    width: 23px;
+    height: 25px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.postdetailview .postdetailheaderview .titlepnglogo{
+    position: absolute;
+    width: 200px;
+    align-content: center;
+    text-align-last: center;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    min-height: 45px;
+    max-height: 46px;
+    margin-top: 0px;
+}
+
+
+.postdetailview .bottomfooter{
+    width: 100%;
+    height: 8%;
+    margin-top: 5%;
+    text-align: right;
+    text-align-last: right;
+    right: 20px;    
+    background: -webkit-linear-gradient(#7CFC00,#8dc63f);
+}
+.postdetailview .typecommand{
+    border-radius: 7px;
+    width: 70%;
+    height: 80%;
+    text-align: left;
+    text-align-last: left;
+    font-weight: 600;
+    font-size: 16px;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.postdetailview .postbutton{
+    background: transparent;
+    border: transparent;
+    text-decoration: underline;
+    font-weight: 800;
+    font-size: 15px;
+    color: white;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    right: 8%;  
+}
+.postdetailview .postbutton:hover{
+    color: #9900ff;
+}
+.postdetailview .loadbutton{
+    width: 100%;
+    margin-top: 4%;
+    min-height: 40px;
+    max-height: 40px;
+    background: white;
+    border: 1px solid #313131;
+    font-weight: 500;
+    font-size: 16px;
+   
+    color: #696969;
+   
+}
+.postdetailview .loadbutton:hover{
+    color: #C344FF;
+}
+.postdetailview .detailphoto1{
+   margin-left: 2%;
+    margin-top: 2%;
+    width:15%;
+    height:15%;
+}
+.postdetailview .detailname1{
+    margin-left: 3%;
+    margin-top: 2%;
+    font-weight: 800;
+}
+.postdetailview .detailtimetxt{
+    margin-left: 3%;
+    margin-top: 2%;
+    font-style: italic;
+    font-weight: 600;
+    color: #999999;
+}
+
+.postdetailview .posttext1{
+    width:90%;
+    margin-top: 2%;
+    margin-left: 5%;
+    font-size: 16px;
+}
+.postdetailview .mainbacklogo{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1px;
+}
+.postdetailview .textgroup{
+    width: 100%;
+   
+}
+.postdetailview .likesnumber{
+    margin-top: 30px;
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    /*position: absolute;*/
+    color: #696969;
+   
+}
+.postdetailview .commentsnumber{
+   color: #696969;
+   font-weight: 700;
+   font-size: 15px;
+   position: absolute;
+   right: 10px;
+   margin-top: 0px;
+}
+.postdetailview .commenttxt{
+    margin-top: 20%;
+    min-height: 50px;
+    max-height: 100px;
+    position: absolute;
+    right: 10px;
+    
+   
+}
+.postdetailview .buttongroup{
+    width: 100%;    
+    margin-top: 10%;
+}
+.postdetailview .buttonlike{
+    border: transparent;
+    background: transparent;
+    margin-left: 2%;
+    font-size: 14px;
+    font-weight: 500;
+    color: #999999;
+}
+.postdetailview .buttonlike:hover{
+   color:#c344ff;
+}
+
+.postdetailview .buttoncomment{
+    border: transparent;
+    background: transparent;
+     font-size: 14px;
+    font-weight: 500;
+    color: #999999;
+}
+.postdetailview .buttongroup .buttoncomment:hover{
+   color:#c344ff;
+}
+
+
+/******************************
+processview part
+**********************************/
+.processview{
+    width: 100%;
+    height: 100%;
+    background: #DCDCDC;
+}
+.processview .mainback{
+    width: 100%;
+    height:70%;
+    background: #f8f8f8;
+}
+.processview .processtitleview{
+    width: 100%;
+    height:50px;
+    min-height: 50px;
+    max-height: 50px;
+    border: transparent;
+    background: -webkit-linear-gradient(#7CFC00,#8dc63f);
+}
+.processview .processtitleview .titlepnglogo{
+    position: absolute;
+    width: 200px;
+    align-content: center;
+    text-align-last: center;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    min-height: 45px;
+    max-height: 46px;
+    margin-top: 0px;
+}
+.processview .processtitleview .backbuttonimg{
+    width: 23px;
+    height: 25px;
+    margin-top: 5px;
+    margin-left: 10px;
+    
+}
+.processview .titleemotion{
+    margin-top:1%;
+    margin-left:2%;
+    color: #9900ff;
+    font-size: 17px;
+    font-weight: 500;
+}
+.processview .sadnesslabel{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+    border-radius: 7px;
+    border: transparent;
+    font-size: 20px;
+}
+.processview .sadness1{
+    font-size: 20px;
+    font-weight: 400;
+}
+.processview .titletrigger{
+    margin-top:1%;
+    margin-left:2%;
+    color: #9900ff;
+    font-size: 17px;
+    font-weight: 500;
+}
+.processview .environlabel{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+    border-radius: 7px;
+    border: transparent;
+}
+.processview .createdtext{
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 7px;
+    margin-top: 3%;
+    resize: vertical;
+    overflow: auto;
+     background: #f8f8f8;
+}
+.processview .title3{
+    margin-top:2%;
+    margin-left:2%;
+    color: #9900ff;
+    font-size: 17px;
+    font-weight: 500;
+}
+.processview .titlepop{
+   margin-top:4%;
+    margin-left:2%;
+    color: #9900ff;
+    font-size: 17px;
+    font-weight: 500;
+}
+.processview .poptext{
+    width: 90%;
+    margin-top: 2%;
+    margin-left: 5%;
+    min-height: 50px;
+    border-radius: 7px;
+    background: white;
+    
+}
+.processview .buttoncancel{
+    width: 40%;
+    min-height: 40px;
+    margin-left: 7%;
+    margin-top: 5%;
+    border: transparent;
+    border-radius: 7px;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    background: -webkit-linear-gradient(#7CFC00,#8dc63f);
+}
+.processview .buttoncancel:hover{
+    color: #9900ff;
+}
+.processview .buttonpost{
+    width: 40%;
+    min-height: 40px;
+    margin-left: 5%;
+     margin-top: 5%;
+     border: transparent;
+    border-radius: 7px;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+     background: -webkit-linear-gradient(#7CFC00,#8dc63f);
+}
+.processview .buttonpost:hover{
+    color: #9900ff;
+}
+
+.processview .procsstitleview{
+    background: -webkit-linear-gradient(#7CFC00,#8dc63f);
+}
+.processview .inputlabel{
+    width: 90%;
+    height: 10%;
+    margin-left: 5%;
+}
+.processview .sadness1{
+    margin-left: 1%;
+    width: 110%;
+    font-size: 15px;
+    text-align-last: center;
+    border: transparent;
+    text-shadow: turquoise;
+}
+.processview .sadness1:hover{
+    color: #C344FF;
+}
+/************ leapview part **********/
+.Leapview{
+    width: 100%;
+    height: 100%;
+    background: #DCDCDC;
+}
+.Leapview .mainback{
+    width: 100%;
+    height:50%;
+    background: #f8f8f8;
+}
+.Leapview .titledetail{
+    margin-top:2%;
+    margin-left:2%;
+    color: #9900ff;
+    font-size: 17px;
+    font-weight: 500;
+}
+.Leapview .leapviewtitleview{
+    width: 100%;
+    height:50px;
+    min-height: 50px;
+    max-height: 50px;
+    border: transparent;
+    background: -webkit-linear-gradient(#7CFC00,#8dc63f);
+}
+.Leapview .leapviewtitleview .backbuttonimg{
+     width: 23px;
+    height: 25px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.Leapview .leapviewtitleview .titlepnglogo{
+    position: absolute;
+    width: 200px;
+    align-content: center;
+    text-align-last: center;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    min-height: 45px;
+    max-height: 46px;
+    margin-top: 0px;
+}
+.Leapview .detailtext{
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 2%;
+    min-height: 160px;
+    border: 2px solid #daa520;
+    
+}
+.Leapview .buttoncancel{
+    width: 40%;
+    min-height: 40px;
+    margin-left: 5%;
+    margin-top: 3%;
+     border: transparent;
+    border-radius: 7px;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+     background: -webkit-linear-gradient(#7CFC00,#8dc63f);
+}
+.Leapview .buttonpost{
+    width: 40%;
+    min-height: 40px;
+    margin-left: 5%;
+     margin-top: 3%;
+     border: transparent;
+    border-radius: 7px;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+     background: -webkit-linear-gradient(#7CFC00,#8dc63f);
+}
+.Leapview .buttongroup .button8{
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 30%;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+   background: -webkit-linear-gradient(#7CFC00,#8dc63f);
+    border:2px solid #9900ff;
+    border-radius: 7px;
+}
+.Leapview .button8:hover{
+    color: #9900ff;
+}
+.Leapview .button8:active{
+    box-shadow: 0 5px #666;
+    transform:translateY(4px);
+}
+.Leapview .descriptiontxt{
+    margin-top: 3%;
+    width: 80%;
+}
+.Leapview .leapviewtitleview{
+     background: -webkit-linear-gradient(#7CFC00,#8dc63f);
+     border-bottom-color: transparent;
+
+}
+.Leapview .urlstr{
+    width: 100%;
+    height: 40%;
+    margin-top: 10%;
+    border-radius: 5px;
+}
+
+/*********** bottom view part ***********/
+.Bottomview{
+    width: 100%;
+    height: 100%;
+    background: #DCDCDC;
+}
+.Bottomview .mainback{
+    width: 100%;
+    height:50%;
+    background: #f8f8f8;
+}
+.Bottomview .title{
+    margin-top:2%;
+    margin-left:2%;
+    color: #9900ff;
+    font-size: 17px;
+    font-weight: 500;
+}
+.Bottomview .detailtext{
+     width: 96%;
+    margin-left: 2%;
+    margin-top: 2%;
+    min-height: 160px;
+    border: 2px solid #daa520;
+}
+.Bottomview .title2{
+    margin-top:10%;
+    margin-left:1%;
+    color: #666;
+    font-size: 20px;
+}
+.Bottomview .buttoncancel{
+  width: 40%;
+    min-height: 40px;
+    margin-left: 5%;
+     margin-top: 3%;
+     border: transparent;
+    border-radius: 7px;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+     background: -webkit-linear-gradient(#7CFC00,#8dc63f);
+}
+.Bottomview .buttonpost{
+    width: 40%;
+    min-height: 40px;
+    margin-left: 5%;
+     margin-top: 3%;
+     border: transparent;
+    border-radius: 7px;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+     background: -webkit-linear-gradient(#7CFC00,#8dc63f);
+}
+
+
+
+.Bottomview .buttongroup .button8{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 30%;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+   background: -webkit-linear-gradient(#7CFC00,#8dc63f);
+    border:2px solid #9900ff;
+    border-radius: 7px;
+}
+.Bottomview .button8:hover{
+    color: #9900ff;
+}
+.Bottomview .button8:active{
+    box-shadow: 0 5px #666;
+    transform:translateY(4px);
+}
+.Bottomview .descriptiontxt{
+    margin-top: 3%;
+    width: 80%;
+}
+.Bottomview .bottomtitleview{
+   background: -webkit-linear-gradient(#7CFC00,#8dc63f);
+}
+.Usercreateviewpart .titlebarview1{
+   
+    background: -webkit-linear-gradient(#7CFC00,#8dc63f);
+}
+.Usercreateviewpart .navbartitle{
+    text-align: center;
+     font-size: 20px;
+     font-style: italic;
+     text-align-last: center;
+     margin-left: 50%;
+     margin-top: 5px;
+     color: #9900ff;
+}
+.Usercreateviewpart .groupItem2{
+    color: #9900ff;
+    margin-top: 2%;
+    margin-left: 10%;
+    font-size: 17px;
+}
+.Usercreateviewpart .Username{
+    width: 60%;
+    margin-top: 2%;
+    margin-left: 15%;
+    border-radius: 10px;
+    font-size: 17px;
+}
+.Usercreateviewpart .genderselect{
+    margin-left: 15%;
+    width: 60%;
+    min-height: 50px;
+    max-height: 100px;
+    font-size: 17px;
+    text-align-last: center;
+    border-radius: 7px;
+}
+.Usercreateviewpart .genderselect:hover{
+    color: #9900ff;
+}
+
+.Usercreateviewpart .birthday{
+    width: 60%;
+    margin-left: 15%;
+    border-radius: 10px;
+}
+.Usercreateviewpart .usercreatbutton{
+   background: -webkit-linear-gradient(#7CFC00,#8dc63f);
+    color: white;
+    font-size: 18px;
+    width:50%;
+    max-height: 200px;
+    min-height: 50px;
+    margin-left: 25%;
+    margin-top: 5%;
+    border: transparent;
+    border-radius: 7px;
+}
+.Usercreateviewpart .usercreatbutton:hover{
+    color: #9900ff;
+}
+.Usercreateviewpart .usercreatbutton:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.chatdetailview .navbartitleview{
+    background: -webkit-linear-gradient(#7CFC00,#8dc63f);
+}
+/***********************maintabboard***************/
+/*******************
+Tab bar part
+*******************/
+.tabs .chats{
+    width: 120%;
+}
+.maintabboard .a{
+    margin-bottom: 5px;
+}
+.maintabboard .tab-status{
+    min-height: 520px;
+    max-height: 720px;
+}
+.tabs .tab-status{
+    background: linear-gradient(#4c4c4c,#4d3624);
+}
+.tabs .tab-status:hover {
+    background: linear-gradient(#4c4c4c,#4d3624);
+}
+.tabs .tab-profile{
+     background: linear-gradient(#4c4c4c,#4d3624);
+}
+.tabs .tab-profile:hover{
+     background: linear-gradient(#4c4c4c,#4d3624);
+}
+.tabs .tab-account{
+     background: linear-gradient(#4c4c4c,#4d3624);
+}
+.tabs .tab-account:hover{
+     background: linear-gradient(#4c4c4c,#4d3624);
+}
+.maintabboard .tab-status .icon.community_img_on{
+    background-image: url('../img/tab_page_backimg.png');
+    background-repeat: no-repeat;
+    height: 70%;
+    background-size: contain;
+    background-position: 50%;
+}
+.maintabboard .tab-status .icon.community_img_off{
+    background-image: url('../img/tab_page_backimg.png');
+    background-repeat: no-repeat;
+    height: 70%;
+    background-size: contain;
+    background-position: 50%;
+}
+.maintabboard .tab-profile .icon.profile_img_on{
+    background-image: url('../img/tab_setting_backimg.png');
+    background-repeat: no-repeat;
+    height: 70%;
+    background-size: contain;
+    background-position: 50%;
+}
+.maintabboard .tab-profile .icon.profile_img_off{
+    background-image: url('../img/tab_setting_backimg.png');
+    background-repeat: no-repeat;
+    height: 70%;
+    background-size: contain;
+    background-position: 50%;
+}
+.maintabboard .tab-account .icon.notifi_img_on{
+    background-image: url('../img/tab_search_backimg.png');
+    background-repeat: no-repeat;
+    height: 70%;
+    background-size: contain;
+    background-position: 50%;
+}
+.maintabboard .tab-account .icon.notifi_img_off{
+    background-image: url('../img/tab_search_backimg.png');
+    background-repeat: no-repeat;
+    height: 70%;
+    background-size: contain;
+    background-position: 50%;
+}
+
+
+.maintabboard a.tab-status, .maintabboard a.tab-profile, .maintabboard a.tab-account{
+    width: 33%;
+    border-left-color: 3px red;
+    background-color: red;
+    
+    
+}
+
+
+  
+  
+

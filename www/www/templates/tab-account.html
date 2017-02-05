@@ -1,0 +1,39 @@
+<ion-view class="profileview">
+    <ion-header-bar class="bar-positive bar postviewtitleview"> 
+                <!--<img class="backbuttonimg" ng-click="goBack()"
+                         src="img/leftbacknew.png"></img>-->
+                <!--<img class="titlepnglogo"src="img/headertitle.png"> -->
+                
+                <div class="posttitlebar_postbutton" 
+                ng-click="postbutton_clicked()">Post</div>  
+    </ion-header-bar>
+  
+    
+  <ion-content class="maincontent" 
+   style = "background:url(img/mainback2.png);">
+
+   <div class="mainpostback_view">
+
+   <div class="controlview"></div>
+
+   <div class="description">Post title: </div>
+
+    <textarea class="item item-input description_title_txtarea" 
+    ng-model = "user.posttile_txt"
+    required="none" ng-required="string" ng-pattern="string" 
+    ng-trim="boolean" rows="4" cols="50">                    
+    </textarea>   
+
+   <div class="posttitle">Post description: </div>
+   <textarea class="item item-input description_content_txtarea" 
+    ng-model = "user.postcontent_txt"
+    required="none" ng-required="string" ng-pattern="string" 
+    ng-trim="boolean" rows="4" cols="50">                    
+    </textarea>   
+   
+
+
+   </div>
+
+  </ion-content>
+</ion-view>

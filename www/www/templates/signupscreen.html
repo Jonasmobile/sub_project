@@ -1,0 +1,49 @@
+
+  <ion-view class="signup-view">
+    <ion-header-bar class="bar-positive bar headerbartitleview">
+         <img class="titlebar_left_btn" 
+                                ng-click="leftbuttonclick()"
+                                src="img/arrow_left.png"></img>
+    </ion-header-bar>
+    
+            <ion-content class="mainlistboard" 
+            style = "background:url(img/mainback2.png);
+            width:100%;height:100%;margin-top:-45px">   
+                
+                <div class="mainback">
+                             <label class="item item-input User_email">
+                                    <input type="text" 
+                                            placeholder = "User_Email" 
+                                            ng-model="user.useremail" 
+                                            id="User_email">
+                            </label> 
+                            
+                             <label class="item item-input User_password">
+                                    <input type="password" 
+                                            placeholder = "User_Password" 
+                                            ng-model="user.userpassword" 
+                                            id="User_password">
+                            </label> 
+                            
+                            <label class="item item-input User_firstname">
+                                    <input type="text" 
+                                            placeholder = "TestFirstname" 
+                                            ng-model="user.firstname" 
+                                            id="User_firstname">
+                            </label>  
+                            
+                            <label class="item item-input User_lastname">
+                                    <input type="text" 
+                                            placeholder = "TestLastname" 
+                                            ng-model="user.lastname" 
+                                            id="User_lastname">
+                            </label> 
+                            
+                            <button class="buttonsigncreate" ng-click="User_create_btnevent()">
+                                            Create
+                            </button>             
+                </div>
+               
+            </ion-content>
+     
+    </ion-view>

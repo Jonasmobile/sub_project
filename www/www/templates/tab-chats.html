@@ -1,0 +1,22 @@
+<ion-view class="Notification">
+     <ion-header-bar class="titlebarview">
+             <div class="searchview_title">
+                 <div class="searchtitle_str">
+                     Story Search
+                 </div>
+             </div>     
+     </ion-header-bar>
+     
+  <ion-content class="mainback"
+  style = "background:url(img/mainback2.png);
+  width:100%;height:100%;margin-top:-45px">
+    <ion-list class = "main_list_view">
+        <ion-item class="listitem"
+                  ng-repeat="chat in chats" 
+                  type="item-text-wrap">  
+                   
+                <div class="detailname1">{{chat.name}}</div>             
+        </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

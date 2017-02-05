@@ -1,0 +1,43 @@
+ <ion-nav-view>
+        <ion-nav-bar class=" bar-assertive">
+            <ion-nav-buttons side="left">
+                <button class="button button-icon button-clear" style=" margin-left: 7px;"  ng-click="goBack()">
+                <img style="width: 11px;" ng-src="img/back_icon.png">
+                test dash btn
+                </button>
+            
+            </ion-nav-buttons>
+            <!--<h1 class="title"><img class="title-image" src = "img/topeditbar.png" style="height:100%;width:100%;" /></h1>-->
+            <ion-nav-buttons side="right">
+                <button class="button button-icon button-clear" ng-click="goProfile()">
+                    <img class="profile_icon" src="img/profile_act.png">
+                </button>
+            </ion-nav-buttons>
+        </ion-nav-bar>
+    
+  
+        <ion-view >
+            <ion-nav-title>
+                <img src = "img/topeditbar.png" style="height:100%;width:100%;">
+            </ion-nav-title>
+            <ion-content >
+                <img src="img/logo1.png" style="height:70%;width:70%;margin-left:15%;margin-top:25%">
+                
+                <div class="list" style="margin-top:10%">
+                    
+                    <label class="item item-input" style="width:80%;margin-left:10%;max-height: 39px;">
+                        <input type="text" placeholder = "Username">
+                    </label>
+                    
+                    <label class="item item-input" style="width:80%;margin-left:10%;max-height: 39px;">
+                        <input type="text" placeholder="Password">
+                    </label>
+                </dive>
+                
+                <button class="button button-block ion-email" ng-click="beforePage()" style = "margin-top:20%;background-image:url(img/loginbutton.png);
+                width:70%;margin-left:15%;height:10%;background-repeat: round;">
+                
+                </button>
+            </ion-content>
+        </ion-view>
+    </ion-nav-view>

@@ -1,0 +1,59 @@
+ <ion-view class="processview">  
+    <ion-header-bar class="bar-positive processtitleview">
+        <img class="backbuttonimg" ng-click="goBack()"
+                         src="img/leftback.png"></img>
+                <img class="titlepnglogo"src="img/headertitle.png">     
+    </ion-header-bar>
+    
+            <ion-content class="mainback" style="margin-top:1%">  
+                
+                        <div class = "groupItem" style="margin-top:1%">
+                            <div class="titleemotion">Emotion:</div>
+                                    <label class="item item-input sadnesslabel">
+                                                        <select class="sadness1">
+                                                            <option>Anger</option>
+                                                            <option selected>Sadness</option>
+                                                            <option>Love/Joy</option>
+                                                            <option>Fear</option>
+                                                        </select>
+                                           
+                                    </label>
+                        </div> 
+                
+                <div class = "groupItem" style="margin-top:1%">
+                       <div class="titletrigger">Trigger:</div>
+                       <label class="item item-input environlabel">
+                                    <select class="sadness1">
+                                        <option>Social</option>
+                                        <option selected>Environmental</option>
+                                        <option>Personal</option>
+                                    </select>
+                            
+                       </label>
+                </div> 
+                
+                <div class = "groupItem" style="margin-top:1%">
+                       <div class="title3">What have you created?:</div>
+                       <textarea class="item item-input createdtext">                    
+                       </textarea>
+                </div> 
+                
+                <div class = "groupItem" style="margin-top:1%">
+                       <div class="titlepop">Pop:</div>
+                       <textarea class="item item-input poptext"> 
+                       </textarea>
+                </div> 
+                
+                 <div class = "buttongroup" style="margin-top:4%">
+                     
+                                <button class="buttoncancel" ng-click="cancelbuttonclick()">
+                                            Cancel
+                                </button>
+                            
+                                <button class="buttonpost" ng-click="postbuttonclick()">
+                                            Post
+                                </button>
+                 </div>
+            </ion-content>
+     
+    </ion-view>
